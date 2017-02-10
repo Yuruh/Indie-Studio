@@ -1,0 +1,7 @@
+<GUILayout version="4" >
+	<Window type="Generic/Image" name="BackgroundRoot">
+		<Property name="Area" value="{{0,0}, {0,0}, {1,0}, {1,0}}"/>
+		<Property Name="BackgroundPictureColour" Value="FFFFFFFFF" />
+		 <Property name="Image" value="IntroFond/IntroFond" />
+	</Window>
+</GUILayout>

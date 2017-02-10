@@ -1,0 +1,4 @@
+<Imageset version="2" name="Keyboard" imagefile="Keyboard.png" nativeHorzRes="1024" nativeVertRes="512" autoScaled="true">
+    <Image name="Keyboard" xPos="0" yPos="0" width="512" height="512" />
+    <Image name="KeyboardOK" xPos="512" yPos="0" width="512" height="512" />
+</Imageset>

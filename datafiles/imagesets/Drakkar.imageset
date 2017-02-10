@@ -1,0 +1,3 @@
+<Imageset version="2" name="Drakkar" imagefile="Drakkar.png" nativeHorzRes="325" nativeVertRes="260" autoScaled="true">
+    <Image name="DrakkarImg" xPos="0" yPos="0" width="325" height="260" />
+</Imageset>

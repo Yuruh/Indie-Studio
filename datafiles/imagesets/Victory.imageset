@@ -1,0 +1,3 @@
+<Imageset version="2" name="Victory" imagefile="Victory.png" nativeHorzRes="1239" nativeVertRes="1019" autoScaled="true">
+    <Image name="Victory" xPos="0" yPos="0" width="1239" height="1019" />
+</Imageset>

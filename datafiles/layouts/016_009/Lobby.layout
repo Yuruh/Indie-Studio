@@ -1,0 +1,279 @@
+<GUILayout version="4" >
+	<Window type="Generic/Image" name="LobbyWindow">
+		<Property name="Area" value="{{0,0},{0,0},{1,0},{1,0}}"/>
+		
+		<Window type="Generic/Image" name="BackgroundLobby">	
+			<Property name="Area" value="{{0,0},{0,0},{1,0},{1,0}}"/>
+			<Property name="Image" value="Lobby/LobbyImg" />
+        	<Property name="Alpha" value="1"/>
+		</Window>
+
+		
+		<!-- WARRIOR PANEL -->
+		<Window type="GlossySerpent/SerpentPanel" name="Warrior_Panel">
+			<Property name="Area" value="{{0,0},{0,0},{0.5,0},{0.5,0}}"/>
+			<Window type="GlossySerpent/StaticImage" name="WarriorLobby">	
+				<Property name="Area" value="{{0.65,0},{0.05,0},{0.95,0},{0.95,0}}"/>
+				<Property name="Image" value="Warrior_Lobby/Warrior_LobbyImg" />
+			</Window>
+			<Window type="GlossySerpent/StaticText" name="Warrior_Text">
+				<Property name="Text" value="Guerrier"/>
+				<Property name="HorzFormatting" value="WordWrapCentreAligned" />
+				<Property name="Area" value="{{0.70,0},{0.80,0},{0.90,0},{0.90,0}}"/>
+            	<Property name="AlwaysOnTop" value="true"/>
+			</Window>
+			<Window type="GlossySerpent/StaticText" name="WarriorController_Text">
+				<Property name="Text" value="Choisissez un contrôleur"/>
+				<Property name="HorzFormatting" value="WordWrapCentreAligned" />
+				<Property name="Font" value="OpenSans-Regular-14" />
+				<Property name="Area" value="{{0.1,0},{0.1,0},{0.5,0},{0.2,0}}"/>
+			</Window>
+			<Window type="GlossySerpent/StaticText" name="WarriorConnected_Text">
+				<Property name="Text" value="[colour='FF24B855']Connecté"/>
+				<Property name="Alpha" value="0"/>
+				<Property name="HorzFormatting" value="WordWrapCentreAligned" />
+				<Property name="Font" value="OpenSans-Regular-16" />
+				<Property name="Area" value="{{0.1,0},{0.72,0},{0.5,0},{0.88,0}}"/>
+			</Window>
+			
+			<Window type="GlossySerpent/StaticImage" name="WarriorKeyboard">
+				<Property name="Area" value="{{0.15,0},{0.4,0},{0.24,0},{0.55,0}}"/>
+				<Property name="Image" value="Keyboard/Keyboard" />
+			</Window>
+			<Window type="GlossySerpent/StaticImage" name="WarriorGamepad">
+				<Property name="Area" value="{{0.26,0},{0.4,0},{0.35,0},{0.55,0}}"/>
+				<Property name="Image" value="Gamepad/Gamepad" />
+			</Window>
+			<Window type="GlossySerpent/StaticImage" name="WarriorIA">
+				<Property name="Area" value="{{0.37,0},{0.4,0},{0.46,0},{0.55,0}}"/>
+				<Property name="Image" value="IA/IA" />
+			</Window>
+			
+			<Window type="GlossySerpent/StaticImage" name="WarriorKeyboardOK">
+				<Property name="Area" value="{{0.15,0},{0.4,0},{0.24,0},{0.55,0}}"/>
+				<Property name="Alpha" value="0"/>
+				<Property name="Image" value="Keyboard/KeyboardOK" />
+			</Window>
+			<Window type="GlossySerpent/StaticImage" name="WarriorGamepadOK">
+				<Property name="Area" value="{{0.26,0},{0.4,0},{0.35,0},{0.55,0}}"/>
+				<Property name="Alpha" value="0"/>
+				<Property name="Image" value="Gamepad/GamepadOK" />
+			</Window>
+			<Window type="GlossySerpent/StaticImage" name="WarriorIAOK">
+				<Property name="Area" value="{{0.37,0},{0.4,0},{0.46,0},{0.55,0}}"/>
+				<Property name="Image" value="IA/IAOK" />
+			</Window>
+		</Window>
+
+		<!-- ARCHER PANEL -->
+		<Window type="GlossySerpent/SerpentPanel" name="Archer_Panel">
+			<Property name="Area" value="{{0.5,0},{0,0},{1,0},{0.5,0}}"/>
+			<Property name="Alpha" value="0.5"/>
+			<Window type="GlossySerpent/StaticImage" name="ArcherLobby">	
+				<Property name="Area" value="{{0.05,0},{0.05,0},{0.35,0},{0.95,0}}"/>
+				<Property name="Image" value="Archer_Lobby/Archer_LobbyImg" />
+			</Window>
+			<Window type="GlossySerpent/StaticText" name="Archer_Text">
+				<Property name="Text" value="Archer"/>
+				<Property name="HorzFormatting" value="WordWrapCentreAligned" />
+				<Property name="Area" value="{{0.10,0},{0.80,0},{0.30,0},{0.90,0}}"/>
+            	<Property name="AlwaysOnTop" value="true"/>
+			</Window>
+			<Window type="GlossySerpent/StaticText" name="ArcherController_Text">
+				<Property name="Text" value="Choisissez un contrôleur"/>
+				<Property name="Alpha" value="0"/>
+				<Property name="HorzFormatting" value="WordWrapCentreAligned" />
+				<Property name="Font" value="OpenSans-Regular-14" />
+				<Property name="Area" value="{{0.5,0},{0.1,0},{0.9,0},{0.2,0}}"/>
+			</Window>
+			<Window type="GlossySerpent/StaticText" name="ArcherConnected_Text">
+				<Property name="Text" value="[colour='FF24B855']Connecté"/>
+				<Property name="Alpha" value="0"/>
+				<Property name="HorzFormatting" value="WordWrapCentreAligned" />
+				<Property name="Font" value="OpenSans-Regular-16" />
+				<Property name="Area" value="{{0.5,0},{0.72,0},{0.9,0},{0.88,0}}"/>
+			</Window>
+
+			<Window type="GlossySerpent/StaticImage" name="ArcherKeyboard">
+				<Property name="Alpha" value="0"/>
+				<Property name="Area" value="{{0.55,0},{0.4,0},{0.64,0},{0.55,0}}"/>
+				<Property name="Image" value="Keyboard/Keyboard" />
+			</Window>
+			<Window type="GlossySerpent/StaticImage" name="ArcherGamepad">
+				<Property name="Alpha" value="0"/>
+				<Property name="Area" value="{{0.66,0},{0.4,0},{0.75,0},{0.55,0}}"/>
+				<Property name="Image" value="Gamepad/Gamepad" />
+			</Window>
+			<Window type="GlossySerpent/StaticImage" name="ArcherIA">
+				<Property name="Alpha" value="0"/>
+				<Property name="Area" value="{{0.77,0},{0.4,0},{0.86,0},{0.55,0}}"/>
+				<Property name="Image" value="IA/IA" />
+			</Window>
+
+			<Window type="GlossySerpent/StaticImage" name="ArcherKeyboardOK">
+				<Property name="Alpha" value="0"/>
+				<Property name="Area" value="{{0.55,0},{0.4,0},{0.64,0},{0.55,0}}"/>
+				<Property name="Image" value="Keyboard/KeyboardOK" />
+				<Property name="Alpha" value="0"/>
+			</Window>
+			<Window type="GlossySerpent/StaticImage" name="ArcherGamepadOK">
+				<Property name="Alpha" value="0"/>
+				<Property name="Area" value="{{0.66,0},{0.4,0},{0.75,0},{0.55,0}}"/>
+				<Property name="Image" value="Gamepad/GamepadOK" />
+				<Property name="Alpha" value="0"/>
+			</Window>
+			<Window type="GlossySerpent/StaticImage" name="ArcherIAOK">
+				<Property name="Alpha" value="0"/>
+				<Property name="Area" value="{{0.77,0},{0.4,0},{0.86,0},{0.55,0}}"/>
+				<Property name="Image" value="IA/IAOK" />
+			</Window>
+
+		</Window>
+
+		<!-- MAGE PANEL -->
+		<Window type="GlossySerpent/SerpentPanel" name="Mage_Panel">
+			<Property name="Area" value="{{0,0},{0.5,0},{0.5,0},{1,0}}"/>
+			<Property name="Alpha" value="0.5"/>
+			<Window type="GlossySerpent/StaticImage" name="MageLobby">	
+				<Property name="Area" value="{{0.65,0},{0.05,0},{0.95,0},{0.95,0}}"/>
+				<Property name="Image" value="Mage_Lobby/Mage_LobbyImg" />
+			</Window>
+			<Window type="GlossySerpent/StaticText" name="Mage_Text">
+				<Property name="Text" value="Mage"/>
+				<Property name="HorzFormatting" value="WordWrapCentreAligned" />
+				<Property name="Area" value="{{0.70,0},{0.80,0},{0.90,0},{0.90,0}}"/>
+            	<Property name="AlwaysOnTop" value="true"/>
+			</Window>
+			<Window type="GlossySerpent/StaticText" name="MageController_Text">
+				<Property name="Alpha" value="0"/>
+				<Property name="Text" value="Choisissez un contrôleur"/>
+				<Property name="HorzFormatting" value="WordWrapCentreAligned" />
+				<Property name="Font" value="OpenSans-Regular-14" />
+				<Property name="Area" value="{{0.1,0},{0.1,0},{0.5,0},{0.2,0}}"/>
+			</Window>
+			<Window type="GlossySerpent/StaticText" name="MageConnected_Text">
+				<Property name="Alpha" value="0"/>
+				<Property name="Text" value="[colour='FF24B855']Connecté"/>
+				<Property name="HorzFormatting" value="WordWrapCentreAligned" />
+				<Property name="Font" value="OpenSans-Regular-16" />
+				<Property name="Area" value="{{0.1,0},{0.72,0},{0.5,0},{0.88,0}}"/>
+			</Window>
+
+			<Window type="GlossySerpent/StaticImage" name="MageKeyboard">
+				<Property name="Area" value="{{0.15,0},{0.4,0},{0.24,0},{0.55,0}}"/>
+				<Property name="Alpha" value="0"/>
+				<Property name="Image" value="Keyboard/Keyboard" />
+			</Window>
+			<Window type="GlossySerpent/StaticImage" name="MageGamepad">
+				<Property name="Area" value="{{0.26,0},{0.4,0},{0.35,0},{0.55,0}}"/>
+				<Property name="Alpha" value="0"/>
+				<Property name="Image" value="Gamepad/Gamepad" />
+			</Window>
+			<Window type="GlossySerpent/StaticImage" name="MageIA">
+				<Property name="Area" value="{{0.37,0},{0.4,0},{0.46,0},{0.55,0}}"/>
+				<Property name="Alpha" value="0"/>
+				<Property name="Image" value="IA/IA" />
+			</Window>
+			
+			<Window type="GlossySerpent/StaticImage" name="MageKeyboardOK">
+				<Property name="Area" value="{{0.15,0},{0.4,0},{0.24,0},{0.55,0}}"/>
+				<Property name="Alpha" value="0"/>
+				<Property name="Image" value="Keyboard/KeyboardOK" />
+			</Window>
+			<Window type="GlossySerpent/StaticImage" name="MageGamepadOK">
+				<Property name="Area" value="{{0.26,0},{0.4,0},{0.35,0},{0.55,0}}"/>
+				<Property name="Alpha" value="0"/>
+				<Property name="Image" value="Gamepad/GamepadOK" />
+			</Window>
+			<Window type="GlossySerpent/StaticImage" name="MageIAOK">
+				<Property name="Area" value="{{0.37,0},{0.4,0},{0.46,0},{0.55,0}}"/>
+				<Property name="Alpha" value="0"/>
+				<Property name="Image" value="IA/IAOK" />
+			</Window>
+		</Window>
+
+		<!-- VALKYRIE PANEL -->
+		<Window type="GlossySerpent/SerpentPanel" name="Valkyrie_Panel">
+			<Property name="Alpha" value="0.5"/>
+			<Property name="Area" value="{{0.5,0},{0.5,0},{1,0},{1,0}}"/>
+			<Window type="GlossySerpent/StaticImage" name="ValkyrieLobby">	
+				<Property name="Area" value="{{0.05,0},{0.05,0},{0.35,0},{0.95,0}}"/>
+				<Property name="Image" value="Valkyrie_Lobby/Valkyrie_LobbyImg" />
+			</Window>
+			<Window type="GlossySerpent/StaticText" name="Valkyrie_Text">
+				<Property name="Text" value="Valkyrie"/>
+				<Property name="HorzFormatting" value="WordWrapCentreAligned" />
+				<Property name="Area" value="{{0.10,0},{0.80,0},{0.30,0},{0.90,0}}"/>
+            	<Property name="AlwaysOnTop" value="true"/>
+			</Window>
+			<Window type="GlossySerpent/StaticText" name="ValkyrieController_Text">
+				<Property name="Alpha" value="0"/>
+				<Property name="Text" value="Choisissez un contrôleur"/>
+				<Property name="HorzFormatting" value="WordWrapCentreAligned" />
+				<Property name="Font" value="OpenSans-Regular-14" />
+				<Property name="Area" value="{{0.5,0},{0.1,0},{0.9,0},{0.2,0}}"/>
+			</Window>
+			<Window type="GlossySerpent/StaticText" name="ValkyrieConnected_Text">
+				<Property name="Alpha" value="0"/>
+				<Property name="Text" value="[colour='FF24B855']Connecté"/>
+				<Property name="HorzFormatting" value="WordWrapCentreAligned" />
+				<Property name="Font" value="OpenSans-Regular-16" />
+				<Property name="Area" value="{{0.5,0},{0.72,0},{0.9,0},{0.88,0}}"/>
+			</Window>
+			
+			<Window type="GlossySerpent/StaticImage" name="ValkyrieKeyboard">
+				<Property name="Alpha" value="0"/>
+				<Property name="Area" value="{{0.55,0},{0.4,0},{0.64,0},{0.55,0}}"/>
+				<Property name="Image" value="Keyboard/Keyboard" />
+			</Window>
+			<Window type="GlossySerpent/StaticImage" name="ValkyrieGamepad">
+				<Property name="Alpha" value="0"/>
+				<Property name="Area" value="{{0.66,0},{0.4,0},{0.75,0},{0.55,0}}"/>
+				<Property name="Image" value="Gamepad/Gamepad" />
+			</Window>
+			<Window type="GlossySerpent/StaticImage" name="ValkyrieIA">
+				<Property name="Alpha" value="0"/>
+				<Property name="Area" value="{{0.77,0},{0.4,0},{0.86,0},{0.55,0}}"/>
+				<Property name="Image" value="IA/IA" />
+			</Window>
+
+			<Window type="GlossySerpent/StaticImage" name="ValkyrieKeyboardOK">
+				<Property name="Alpha" value="0"/>
+				<Property name="Area" value="{{0.55,0},{0.4,0},{0.64,0},{0.55,0}}"/>
+				<Property name="Image" value="Keyboard/KeyboardOK" />
+				<Property name="Alpha" value="0"/>
+			</Window>
+			<Window type="GlossySerpent/StaticImage" name="ValkyrieGamepadOK">
+				<Property name="Alpha" value="0"/>
+				<Property name="Area" value="{{0.66,0},{0.4,0},{0.75,0},{0.55,0}}"/>
+				<Property name="Image" value="Gamepad/GamepadOK" />
+				<Property name="Alpha" value="0"/>
+			</Window>
+			<Window type="GlossySerpent/StaticImage" name="ValkyrieIAOK">
+				<Property name="Alpha" value="0"/>
+				<Property name="Area" value="{{0.77,0},{0.4,0},{0.86,0},{0.55,0}}"/>
+				<Property name="Image" value="IA/IAOK" />
+			</Window>
+		</Window>
+		
+		<!-- BACK BUTTON -->
+		<Window type="GlossySerpent/Button32_4C" name="BtnBack" >
+            <Property name="Text" value="[colour='FFFFFFFF']Revenir au menu principal[colour='FFFFFFFF']" />
+            <Property name="InheritsAlpha" value="False" />
+            <Property name="Area" value="{{0,0},{0.95,0},{0.2,0},{1,0}}" />
+            <Property name="GlyphImage" value="GlossySerpent/GlyphArrowLeft" />
+            <Property name="AlwaysOnTop" value="true"/>
+        </Window>
+
+        <!-- PLAY BUTTON -->
+		<Window type="GlossySerpent/Button32_4C" name="BtnPlay" >
+			<Property Name="Disabled" Value="True" />
+            <Property name="Text" value="[colour='FFFFFFFF']Jouer[colour='FFFFFFFF']" />
+            <Property name="InheritsAlpha" value="False" />
+            <Property name="Area" value="{{0.9,0},{0.95,0},{1,0},{1,0}}" />
+            <Property name="GlyphImage" value="GlossySerpent/GlyphShield" />
+            <Property name="AlwaysOnTop" value="true"/>
+        </Window>
+
+	</Window>
+</GUILayout>

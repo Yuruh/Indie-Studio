@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout version="4">
+
+    <!-- This is the options window -->
+
+
+        <Window Type="GlossySerpent/TabControl" Name="OptionsWindowTab" >
+            <Property Name="Alpha" Value="1.0" />
+            <Property Name="TabHeight" Value="{0.15,0}" />
+            <Property Name="TCScrollLRatio" Value="0.45" />
+            <Property Name="TabHeight" Value="{0,31.1724}" />
+            <Property Name="TabPanePosition" Value="Top" />
+            <Property Name="Area" Value="{{0.01,0},{0.01,0},{0.99,0},{0.82,0}}" />
+            
+            <Window Type="GlossySerpent/TabContentPane" Name="Tab_Video" >
+                <Property Name="Text" Value="Video" />
+                <Property Name="Alpha" Value="0.0" />
+                <Property Name="Visible" Value="False" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="Area" Value="{{0,0},{0,0},{1.0,0},{1.0,0}}" />
+
+            </Window> <!-- tab -->
+
+            <Window Type="GlossySerpent/TabContentPane" Name="Tab_Image" >
+                <Property Name="Text" Value="Image" />
+                <Property Name="Alpha" Value="0.0" />
+                <Property Name="Visible" Value="True" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="Area" Value="{{1,0},{1,0},{1.0,0},{1.0,0}}" />
+
+            </Window> <!-- tab -->
+        </Window> <!-- tab control -->
+
+    </Window>
+</GUILayout>

@@ -1,0 +1,3 @@
+<Imageset version="2" name="Archer" imagefile="Archer.png" nativeHorzRes="200" nativeVertRes="200" autoScaled="true">
+    <Image name="ArcherImg" xPos="0" yPos="0" width="200" height="200"/>
+</Imageset>

@@ -1,0 +1,3 @@
+<Imageset version="2" name="Lobby" imagefile="Lobby.jpg" nativeHorzRes="1920" nativeVertRes="1200" autoScaled="true">
+    <Image name="LobbyImg" xPos="0" yPos="0" width="1920" height="1200" />
+</Imageset>

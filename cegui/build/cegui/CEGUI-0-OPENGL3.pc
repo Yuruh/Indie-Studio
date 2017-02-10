@@ -1,0 +1,12 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include/cegui-0
+moduledir=${prefix}/lib/cegui-0.9999
+datafiles=${prefix}/share/cegui-0
+
+Name: CEGUI-0 OpenGL 3 Renderer
+Description: OpenGL 3 based renderer module for CEGUI.
+Version: 0.9999.0
+Requires: CEGUI-0 = 0.9999.0
+Libs: -lCEGUIOpenGLRenderer-0

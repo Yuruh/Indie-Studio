@@ -1,0 +1,40 @@
+<GUILayout version="4" >
+    <Window type="GlossySerpent/StaticImage" name="MainMenuRootItem" >
+
+        <Window type="Generic/Image" name="HighscoreListPanel">
+            <Property name="Area" value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Property name="Image" value="Background/BackgroundImg" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            <Property name="MousePassThroughEnabled" value="True" />
+
+            <Window type="GlossySerpent/Button32_4C" name="ButtonNewGame" >
+                <Property name="Text" value="Nouvelle Partie" />
+                <Property name="Font" value="OpenSans-Regular-16" />
+                <Property name="Disabled" value="False" />
+                <Property name="InheritsAlpha" value="False" />
+                <Property name="Area" value="{{0.35,0},{0.2,585},{0.65,0},{0.29,600}}" />
+            </Window>
+
+            <Window type="GlossySerpent/Button32_4C" name="ButtonOptions" >
+                <Property name="Text" value="Options" />
+                <Property name="Font" value="OpenSans-Regular-16" />
+                <Property name="TooltipText" value="[colour='FFFFF000']Options[colour='FFFFFFFF'] View and edit the game options." />
+                <Property name="InheritsAlpha" value="False" />
+                <Property name="Area" value="{{0.40,0},{0.3,620},{0.60,0},{0.39,640}}" />
+                <!--<Property name="GlyphImage" value="set:KeyboardGlyphs image:GlyphKeyEsc" />-->
+                <!--<Property name="TextUsesGlyph" value="True" />-->
+            </Window>
+
+            <Window type="GlossySerpent/Button32_4C" name="ButtonExit" >
+                <Property name="Text" value="Quitter" />
+                <Property name="Font" value="OpenSans-Regular-16" />
+                <Property name="TooltipText" value="[colour='FFFFF000']Exit [colour='FFFFFFFF']Exit the game." />
+                <Property name="InheritsAlpha" value="False" />
+                <Property name="Area" value="{{0.8,0},{0.9,0},{0.98,0},{0.99,0}}" />
+                <!--<Property name="GlyphImage" value="set:KeyboardGlyphs image:GlyphKeyEsc" />-->
+                <Property name="TextUsesGlyph" value="True" />
+            </Window>
+        </Window>
+
+    </Window> <!-- root item-->
+</GUILayout>

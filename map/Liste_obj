@@ -1,0 +1,8 @@
+e gargouille.mesh 500/90/0 90/0/180 100/100/100
+e PotCoin.mesh 500/0/0 90/0/180 50/50/50
+e Column.mesh 500/0/0 90/0/180 100/100/100
+e Skeleton.mesh 500/0/0 0/0/180 25/25/25
+e Mushroom.mesh 500/0/0 90/0/180 50/50/50
+e Mushroom2.mesh 500/-2/0 90/0/180 50/50/50
+e Rock.mesh 500/0/0 0/0/0 100/100/100
+e Corpse.mesh -450/0/45 90/0/180 110/110/110

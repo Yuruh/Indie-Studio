@@ -1,0 +1,126 @@
+<GUILayout version="4" >
+
+    <!-- This is the options window -->
+    <Window type="GlossySerpent/SerpentPanel" name="OptionsWindow">
+        <Property name="MaxSize" value="{{1.1,0},{1.1,0}}" />
+        <Property name="MinSize" value="{{0,001},{0,001}}" />
+        <Property name="Area" value="{{0.25,0},{0.2,0},{0.75,0},{0.75,0}}" />
+        <Property name="Visible" value="False" />
+        <Property name="InheritsAlpha" value="False" />
+            
+        <Window type="GlossySerpent/Button32_4C" name="BtnOptCancel" >
+            <Property name="Text" value="[colour='FFFFFFFF']Annuler[colour='FFFFFFFF']" />
+            <Property name="InheritsAlpha" value="False" />
+            <Property name="Area" value="{{0.7,0},{0.88,0},{0.99,0},{0.98,0}}" />
+            <Property name="TooltipText" value="Cancel any changes to the options and go back to the menu" />
+            <Property name="GlyphImage" value="GlossySerpent/GlyphShield" />
+        </Window>
+
+        <Window type="GlossySerpent/Button32_4C" name="BtnOptOk" >
+            <Property name="Text" value="Appliquer" />
+            <Property name="InheritsAlpha" value="False" />
+            <Property name="Area" value="{{0.4,0},{0.88,0},{0.65,0},{0.98,0}}" />
+            <Property name="TooltipText" value="Cancel any changes to the options and go back to the menu" />
+            <Property name="GlyphImage" value="GlossySerpent/GlyphShield" />
+        </Window>
+
+        <Window type="GlossySerpent/TabControl" name="OptionsWindowTab" >
+            <Property name="Alpha" value="1.0" />
+            <Property name="TabHeight" value="{0.15,0}" />
+            <Property name="TCScrollLRatio" value="0.45" />
+            <Property name="TabHeight" value="{0,31.1724}" />
+            <Property name="TabPanePosition" value="Top" />
+            <Property name="Area" value="{{0.01,0},{0.01,0},{0.99,0},{0.82,0}}" />
+            
+            <Window type="GlossySerpent/TabContentPane" name="Tab_Video" >
+                <Property name="Text" value="Video" />
+                <Property name="Alpha" value="1.0" />
+                <Property name="Visible" value="True" />
+                <Property name="InheritsAlpha" value="False" />
+                <Property name="Area" value="{{0,0},{0,0},{1.0,0},{1.0,0}}" />
+
+                <Window type="GlossySerpent/StaticText" name="Text_Ombre">
+                    <Property name="Area" value="{{0.03,0},{0.07,0},{0.13,0},{0.1724,0}}" />
+                    <Property name="Text" value="Ombres"/>
+                    <Property name="HorzFormatting" value="WordWrapCentreAligned" />
+                </Window>
+                <Window type="OgreTray/Spinner" name="Option_Ombre">
+                    <Property name="Area" value="{{0.15,0},{0.08,0},{0.26,0},{0.16,0}}" />
+                </Window>
+
+                <Window type="GlossySerpent/SerpentPanel" name="HrOption_2">
+                    <Property name="Area" value="{{0,0},{0.54,0},{1,0},{0.64,0}}" />
+                </Window>
+                <Window type="Generic/Image" name="MargeOption_2">
+                    <Property name="AlwaysOnTop" value="True"/>
+                    <Property name="Area" value="{{0.35,0},{0.4,0},{0.65,0},{0.7,0}}" />
+                    <Property name="Image" value="Marge/MargeImg" />
+                </Window>
+
+                <Window type="GlossySerpent/StaticText" name="Text_Debug">
+                    <Property name="Area" value="{{0.03,0},{0.8,0},{0.19,0},{0.9,0}}" />
+                    <Property name="Text" value="Mode Debug"/>
+                    <Property name="HorzFormatting" value="WordWrapCentreAligned" />
+                </Window>
+                <Window type="OgreTray/Checkbox" name="Option_Debug">
+                    <Property name="Area" value="{{0.19,0},{0.8,0},{0.25,0},{0.9,0}}" />
+                </Window>
+            </Window> <!-- tab -->
+
+            <Window type="GlossySerpent/TabContentPane" name="Tab_Son" >
+                <Property name="Text" value="Son" />
+                <Property name="Alpha" value="1.0" />
+                <Property name="Visible" value="True" />
+                <Property name="InheritsAlpha" value="False" />
+                <Property name="Area" value="{{0,0},{0,0},{1.0,0},{1.0,0}}" />
+
+                <Window type="GlossySerpent/StaticText" name="Text_Volume">
+                    <Property name="Area" value="{{0.03,0},{0.07,0},{0.13,0},{0.1724,0}}" />
+                    <Property name="Text" value="Volume"/>
+                    <Property name="HorzFormatting" value="WordWrapCentreAligned" />
+                </Window>
+                <Window type="OgreTray/Slider" name="Option_Volume">
+                    <Property name="Area" value="{{0.15,0},{0.1,0},{0.80,0},{0.1401,0}}" />
+                </Window>
+
+                <Window type="GlossySerpent/StaticText" name="Text_Musique">
+                    <Property name="Area" value="{{0.02,0},{0.18,0},{0.14,0},{0.2824,0}}" />
+                    <Property name="Text" value="Musique"/>
+                    <Property name="HorzFormatting" value="WordWrapCentreAligned" />
+                </Window>
+                <Window type="OgreTray/Slider" name="Option_Musique">
+                    <Property name="Area" value="{{0.15,0},{0.21,0},{0.80,0},{0.2501,0}}" />
+                </Window>
+                
+                <Window type="GlossySerpent/StaticText" name="Text_Son">
+                    <Property name="Area" value="{{0.03,0},{0.29,0},{0.13,0},{0.3924,0}}" />
+                    <Property name="Text" value="Son"/>
+                    <Property name="HorzFormatting" value="WordWrapCentreAligned" />
+                </Window>
+                <Window type="OgreTray/Slider" name="Option_Son">
+                    <Property name="Area" value="{{0.15,0},{0.32,0},{0.80,0},{0.3601,0}}" />
+                </Window>
+
+
+                <Window type="GlossySerpent/SerpentPanel" name="HrOption_1">
+                    <Property name="Area" value="{{0,0},{0.54,0},{1,0},{0.64,0}}" />
+                </Window>
+                <Window type="Generic/Image" name="MargeOption_1">
+                    <Property name="AlwaysOnTop" value="True"/>
+                    <Property name="Area" value="{{0.35,0},{0.4,0},{0.65,0},{0.7,0}}" />
+                    <Property name="Image" value="Marge/MargeImg" />
+                </Window>
+
+
+                <Window type="GlossySerpent/StaticText" name="Text_Mute">
+                    <Property name="Area" value="{{0.03,0},{0.8,0},{0.13,0},{0.9,0}}" />
+                    <Property name="Text" value="Mute"/>
+                    <Property name="HorzFormatting" value="WordWrapCentreAligned" />
+                </Window>
+                <Window type="OgreTray/Checkbox" name="Option_Mute">
+                    <Property name="Area" value="{{0.10,0},{0.8,0},{0.20,0},{0.9,0}}" />
+                </Window>
+            </Window> <!-- tab -->
+        </Window> <!-- tab control -->
+    </Window>
+</GUILayout>

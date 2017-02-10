@@ -1,0 +1,162 @@
+<GUILayout version="4" >
+    <Window type="Generic/Image" name="RootOverlay">
+        <Property name="Area" value="{{0.0,0},{0.0,0},{1,0},{1,0}}" />
+        
+        <!-- BOSS -->
+        <Window type="GlossySerpent/SerpentPanel" name="Boss_Overlay">
+            <Property name="Area" value="{{0.33,0},{0.85,0},{0.67,0},{0.95,0}}" />
+            <Property name="Alpha" value="0"/>
+            <Window type="Generic/Image" name="Boss">
+                <Property name="Image" value="Boss/Boss" />
+                <Property name="Area" value="{{0,02},{0,0},{0.18,0},{1,0}}" />
+            </Window>
+            <Window type="GlossySerpent/ProgressBarBoss" name="Boss_hp">
+                <Property name="Area" value="{{0.2,0},{0.15,0},{0.98,0},{0.85,0}}" />
+            </Window>
+        </Window>
+
+        <!-- WARRIOR -->
+        <Window type="GlossySerpent/SerpentPanel" name="Warrior_Overlay" >
+            <Property name="Area" value="{{0.0,0},{0.0,0},{0.3,0},{0.1,0}}" />
+            <Window type="Generic/Image" name="WarriorImg">
+                <Property name="Image" value="Warrior/WarriorImg" />
+                <Property name="Area" value="{{0,0},{0,0},{0.20,0},{1,0}}" />
+            </Window>
+            <Window type="GlossySerpent/StaticImage" name="WarriorDeath">
+                <Property name="Alpha" value="0"/>
+                <Property name="Image" value="Death/DeathImg" />
+                <Property name="Area" value="{{0,0},{0,0},{0.20,0},{1,0}}" />
+            </Window>
+
+            <Window type="GlossySerpent/ProgressBar" name="Warrior_hp">
+                <Property name="Area" value="{{0.5,0},{0.15,0},{0.98,0},{0.45,0}}" />
+            </Window>
+            <Window type="GlossySerpent/ProgressBarMana" name="Warrior_mana">
+                <Property name="Area" value="{{0.5,0},{0.50,0},{0.98,0},{0.80,0}}" />
+            </Window>
+            
+            <Window type="GlossySerpent/StaticText" name="Warrior_gold">
+                <Property name="HorzFormatting" value="WordWrapRightAligned" />
+                <Property name="Area" value="{{0.3,0},{0.50,0},{0.45,0},{0.80,0}}" />
+                <Property name="Text" value="0"/>
+            </Window>
+            <Window type="Generic/Image" value="WarriorGoldImg">
+                <Property name="Area" value="{{0.25,0},{0.50,0},{0.3,0},{0.75,0}}" />
+                <Property name="Image" value="Gold/GoldImg"/>
+            </Window>
+
+            <Window type="GlossySerpent/StaticText" name="Warrior_score">
+                <Property name="Area" value="{{0.2,0},{0.20,0},{0.45,0},{0.50,0}}" />
+                <Property name="Text" value="HighScore: 0"/>
+            </Window>
+        </Window>
+
+        <!-- ARCHER -->
+        <Window type="GlossySerpent/SerpentPanel" name="Archer_Overlay" >
+            <Property name="Area" value="{{0.7,0},{0.0,0},{1.0,0},{0.1,0}}" />
+            <Window type="Generic/Image" name="ArcherImg">
+                <Property name="Image" value="Archer/ArcherImg" />
+                <Property name="Area" value="{{0,0},{0,0},{0.20,0},{1,0}}" />
+            </Window>
+            <Window type="GlossySerpent/StaticImage" name="ArcherDeath">
+                <Property name="Alpha" value="0"/>
+                <Property name="Image" value="Death/DeathImg" />
+                <Property name="Area" value="{{0,0},{0,0},{0.20,0},{1,0}}" />
+            </Window>
+
+            <Window type="GlossySerpent/ProgressBar" name="Archer_hp">
+                <Property name="Area" value="{{0.5,0},{0.15,0},{0.98,0},{0.45,0}}" />
+            </Window>
+            <Window type="GlossySerpent/ProgressBarMana" name="Archer_mana">
+                <Property name="Area" value="{{0.5,0},{0.50,0},{0.98,0},{0.80,0}}" />
+            </Window>
+            
+            <Window type="GlossySerpent/StaticText" name="Archer_gold">
+                <Property name="Area" value="{{0.3,0},{0.50,0},{0.45,0},{0.80,0}}" />
+                <Property name="HorzFormatting" value="WordWrapRightAligned" />
+                <Property name="Text" value="0"/>
+            </Window>
+            <Window type="Generic/Image" value="ArcherGoldImg">
+                <Property name="Area" value="{{0.25,0},{0.50,0},{0.3,0},{0.75,0}}" />
+                <Property name="Image" value="Gold/GoldImg"/>
+            </Window>
+
+            <Window type="GlossySerpent/StaticText" name="Archer_score">
+                <Property name="Area" value="{{0.2,0},{0.20,0},{0.45,0},{0.50,0}}" />
+                <Property name="Text" value="HighScore: 0"/>
+            </Window>
+        </Window>
+
+        <!-- MAGE -->
+        <Window type="GlossySerpent/SerpentPanel" name="Mage_Overlay" >
+            <Property name="Area" value="{{0.0,0},{0.9,0},{0.3,0},{1,0}}" />
+            <Window type="Generic/Image" name="MageImg">
+                <Property name="Image" value="Mage/MageImg" />
+                <Property name="Area" value="{{0,0},{0,0},{0.20,0},{1,0}}" />
+            </Window>
+            <Window type="GlossySerpent/StaticImage" name="MageDeath">
+                <Property name="Alpha" value="0"/>
+                <Property name="Image" value="Death/DeathImg" />
+                <Property name="Area" value="{{0,0},{0,0},{0.20,0},{1,0}}" />
+            </Window>
+
+            <Window type="GlossySerpent/ProgressBar" name="Mage_hp">
+                <Property name="Area" value="{{0.5,0},{0.15,0},{0.98,0},{0.45,0}}" />
+            </Window>
+            <Window type="GlossySerpent/ProgressBarMana" name="Mage_mana">
+                <Property name="Area" value="{{0.5,0},{0.50,0},{0.98,0},{0.80,0}}" />
+            </Window>
+            
+            <Window type="GlossySerpent/StaticText" name="Mage_gold">
+                <Property name="Area" value="{{0.3,0},{0.50,0},{0.45,0},{0.80,0}}" />
+                <Property name="HorzFormatting" value="WordWrapRightAligned" />
+                <Property name="Text" value="0"/>
+            </Window>
+            <Window type="Generic/Image" value="MageGoldImg">
+                <Property name="Area" value="{{0.25,0},{0.50,0},{0.3,0},{0.75,0}}" />
+                <Property name="Image" value="Gold/GoldImg"/>
+            </Window>
+
+            <Window type="GlossySerpent/StaticText" name="Mage_score">
+                <Property name="Area" value="{{0.2,0},{0.20,0},{0.45,0},{0.50,0}}" />
+                <Property name="Text" value="HighScore: 0"/>
+            </Window>
+        </Window>
+
+        <!-- VALKYRIE -->
+        <Window type="GlossySerpent/SerpentPanel" name="Valkyrie_Overlay" >
+            <Property name="Area" value="{{0.7,0},{0.9,0},{1.0,0},{1,0}}" />
+            <Window type="Generic/Image" name="ValkyrieImg">
+                <Property name="Image" value="Valkyrie/ValkyrieImg" />
+                <Property name="Area" value="{{0,0},{0,0},{0.20,0},{1,0}}" />
+            </Window>
+            <Window type="GlossySerpent/StaticImage" name="ValkyrieDeath">
+                <Property name="Alpha" value="0"/>
+                <Property name="Image" value="Death/DeathImg" />
+                <Property name="Area" value="{{0,0},{0,0},{0.20,0},{1,0}}" />
+            </Window>
+
+            <Window type="GlossySerpent/ProgressBar" name="Valkyrie_hp">
+                <Property name="Area" value="{{0.5,0},{0.15,0},{0.98,0},{0.45,0}}" />
+            </Window>
+            <Window type="GlossySerpent/ProgressBarMana" name="Valkyrie_mana">
+                <Property name="Area" value="{{0.5,0},{0.50,0},{0.98,0},{0.80,0}}" />
+            </Window>
+            
+            <Window type="GlossySerpent/StaticText" name="Valkyrie_gold">
+                <Property name="Area" value="{{0.3,0},{0.50,0},{0.45,0},{0.80,0}}" />
+                <Property name="HorzFormatting" value="WordWrapRightAligned" />
+                <Property name="Text" value="0"/>
+            </Window>
+            <Window type="Generic/Image" value="ValkyrieGoldImg">
+                <Property name="Area" value="{{0.25,0},{0.50,0},{0.3,0},{0.75,0}}" />
+                <Property name="Image" value="Gold/GoldImg"/>
+            </Window>
+
+            <Window type="GlossySerpent/StaticText" name="Valkyrie_score">
+                <Property name="Area" value="{{0.2,0},{0.20,0},{0.45,0},{0.50,0}}" />
+                <Property name="Text" value="HighScore: 0"/>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

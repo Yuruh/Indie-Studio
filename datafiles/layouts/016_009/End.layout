@@ -1,0 +1,16 @@
+<GUILayout version="4" >
+	<Window type="Generic/Image" name="EndRoot">
+		<Property name="Area" value="{{0,0}, {0,0}, {1,0}, {1,0}}"/>
+
+	<Window type="Generic/Image" name="Victory">
+        <Property name="Image" value="Victory/Victory" />
+        <Property name="Area" value="{{0.20,0},{0.10,0},{0.80,0},{0.90,0}}" />
+    </Window>
+
+    <Window type="Generic/Image" name="Defeat">
+        <Property name="Image" value="Defeat/Defeat" />
+        <Property name="Area" value="{{0.30,0},{0.10,0},{0.70,0},{0.80,0}}" />
+    </Window>
+
+	</Window>
+</GUILayout>

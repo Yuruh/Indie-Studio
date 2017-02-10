@@ -1,0 +1,10 @@
+p ground 1000/500 Examples/DungeonFloor 0/0
+pc 0/500 0/-500 500/0 -500/0
+
+e gargouille.mesh 0/90/0 90/0/180 200/200/200 2/0
+e Mushroom.mesh 120/0/-120 90/0/130 20/20/20 0/1
+e Mushroom.mesh 100/0/-120 90/0/130 30/30/30 0/1
+e Corpse.mesh 60/0/-150 90/0/180 110/110/110 0/1
+
+e Mushroom.mesh 250/0/200 90/0/130 50/50/50 0/1
+e Mushroom2.mesh -275/0/300 90/0/100 150/150/150 0/1

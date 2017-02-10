@@ -1,0 +1,30 @@
+<GUILayout version="4" >
+    <Window type="GlossySerpent/StaticImage" name="PauseBackgound">
+        <Property name="Area" value="{{0.0,0},{0.0,0},{1,0},{1,0}}" />
+        <Property name="Image" value="Pause/PauseImg" />
+        <Property name="Visible" value="True" />
+
+        <!-- This is the options window -->
+        <Window type="GlossySerpent/SerpentPanel" name="PauseWindow">
+            <Property name="Area" value="{{0.40,0},{0.3,0},{0.60,0},{0.65,0}}" />
+            <Property name="Visible" value="True" />
+            <Property name="InheritsAlpha" value="False" />
+
+            <Window type="GlossySerpent/Button" name="PauseResume">
+                <Property name="Area" value="{{0.10,0},{0.10,0},{0.90,0},{0.30,0}}" />
+                <Property name="Text" value="Reprendre"/>
+                <Property name="Font" value="OpenSans-Regular-12" />
+            </Window>
+            <Window type="GlossySerpent/Button" name="PauseOption">
+                <Property name="Area" value="{{0.10,0},{0.40,0},{0.90,0},{0.60,0}}" />
+                <Property name="Text" value="Options"/>
+                <Property name="Font" value="OpenSans-Regular-12" />
+            </Window>
+            <Window type="GlossySerpent/Button" name="PauseQuit">
+                <Property name="Area" value="{{0.10,0},{0.70,0},{0.90,0},{0.90,0}}" />
+                <Property name="Text" value="Quitter"/>
+                <Property name="Font" value="OpenSans-Regular-12" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

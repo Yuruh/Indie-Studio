@@ -1,0 +1,3 @@
+<Imageset version="2" name="Mage_Lobby" imagefile="Mage_Lobby.png" nativeHorzRes="400" nativeVertRes="750" autoScaled="true">
+    <Image name="Mage_LobbyImg" xPos="0" yPos="0" width="400" height="750" />
+</Imageset>
